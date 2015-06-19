@@ -7,7 +7,7 @@ import tornado.options
 import tornado.ioloop
 from tornado.web import RequestHandler
 
-from settings import app
+from config import app
 
 
 tornado.options.parse_command_line()

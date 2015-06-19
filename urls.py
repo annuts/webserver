@@ -3,10 +3,13 @@
 
 import tornado.web
 from main import MainHandler
+from config import settings
+
 
 app = tornado.web.Application(
     handlers = [
         ('/', MainHandler),
     ],
+    **settings
 )
 
