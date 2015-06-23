@@ -9,7 +9,7 @@ settings= {
 }
 
 
-# from urls import app 要在 settings 下边引用
+# from urls import app 要在 settings 下边导入
 from urls import app
 port = 8080
 app.listen(port)
